@@ -10,9 +10,11 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Simplify%20Network%20Connectivity%20for%20AlloyDB%20for%20PostgreSQL%20Challenge%20Lab/quicklabgcc040.sh
-sudo chmod +x quicklabgcc040.sh
-./quicklabgcc040.sh
+curl -LO raw.githubusercontent.com/Titash-shil/Simplify-Network-Connectivity-for-AlloyDB-for-PostgreSQL-Challenge-Lab-GCC040/refs/heads/main/qwiklab_explorers_gcc040.sh
+
+sudo chmod +x qwiklab_explorers_gcc040.sh
+
+./qwiklab_explorers_gcc040.sh
 ```
 - After  Completing Execution on Cloud Shell, then only proceed next step.
 ---
@@ -21,6 +23,7 @@ sudo chmod +x quicklabgcc040.sh
 ```bash
 psql -h REPLACE_IP -U postgres -d postgres
 ```
+- Make sure to replace `REPLACE_IP` from Cloud Shell, then run in `SSH`
 ---
 ```bash
 
